@@ -1,5 +1,6 @@
 from Utility.speak import Speak
 from Utility.listen import listen
+from Utility.helper import wishMe
 
 # Configuring Voice
 
@@ -8,4 +9,4 @@ Speak.change_voice(1)
 
 
 if __name__ == '__main__':
-    Speak.speak(listen())
+    wishMe()

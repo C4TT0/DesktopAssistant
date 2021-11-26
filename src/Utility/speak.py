@@ -6,6 +6,9 @@ engine = pyttsx3.init()
 # Everything related to speaking functionality
 
 class Speak:
+    def __init__(self):
+        pass
+
     @staticmethod
     def change_rate(rate_inp):
         rate = engine.getProperty('rate')
